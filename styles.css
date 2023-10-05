@@ -69,6 +69,10 @@ nav ul li a {
   padding: 20px;
   text-align: center;
   width: calc(33.33% - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .product-card img {
@@ -93,6 +97,20 @@ nav ul li a {
   font-size: 20px;
   color: #f05a28;
   margin-top: 10px;
+}
+
+.add-to-cart {
+  background-color: #f05a28;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #d0451b;
 }
 
 /* Pagination styles */
