@@ -42,8 +42,12 @@
     </div>
 
     <footer>
-      <p>&copy; 2023 Product Gallery</p>
+      <p>&copy; <span>2023</span> Product Gallery</p>
     </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 
     <script src="app.js"></script>
   </body>
